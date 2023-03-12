@@ -13,5 +13,6 @@ class Maximum:
             print("x is bigger than y")
         elif self.x == self.y:
             print("x equal y")
+        else:
 
 
