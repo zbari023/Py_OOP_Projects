@@ -11,4 +11,6 @@ class Maximum:
     def myfunc(self, x, y):
         if self.x > self.y:
             print("x is bigger than y")
+        elif self.x == self.y:
+
 
