@@ -16,4 +16,5 @@ class Maximum:
         else:
             print("y is bigger than x")
 
+Maximum()
 
