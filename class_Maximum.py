@@ -8,3 +8,6 @@ class Maximum:
     def __init__(self):
         self.myfunc(None, None)
 
+    def myfunc(self, x, y):
+        if self.x > self.y:
+
