@@ -5,3 +5,6 @@ class Maximum:
     x = int(input("enter your first number: "))
     y = int(input("enter your secund number: "))
 
+    def __init__(self):
+        self.myfunc(None, None)
+
