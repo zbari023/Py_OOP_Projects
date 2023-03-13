@@ -1,4 +1,4 @@
-
+# OOP
 # my fist class that give you which number is bigger
 class Maximum:
     print("Max of 2 values: ")
