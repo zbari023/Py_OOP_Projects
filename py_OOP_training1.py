@@ -1,5 +1,5 @@
 class Car:  # class
-    # property or Attribute
+    # property or  class Attribute
     color = 'red'
     modell = 2018
     motor = 'Benzin'
@@ -16,12 +16,14 @@ class Car:  # class
 
 print("Object 1 of class Car :")
 c1 = Car()  # copy 1 / Object 1
-c1.color = 'black'
+c1.color = 'black'   # instance attribute
 print(c1.color)
 c1.motor = 'Desil'
 print(c1.motor)
 c1.modell = 'Maybach 2023'
 print(c1.modell)
+del c1.color         # back to the class attribute
+print(c1.color)
 
 print("the output of function: ")
 c1.kilometerage("127 km","200 km")
