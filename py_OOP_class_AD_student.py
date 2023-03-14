@@ -18,7 +18,7 @@ Ziad.addNoten(40)
 Ziad.addNoten(46)
 Ziad.addNoten(45)
 Ziad.addNoten(43)
-print(Ziad.marks)
-print(Ziad.avr())
+print(f'Ziad Noten = {Ziad.marks}')
+print(f'Ziad avarage = {Ziad.avr()}')
 
 
