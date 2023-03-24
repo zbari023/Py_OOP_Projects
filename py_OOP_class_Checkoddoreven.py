@@ -2,14 +2,17 @@
 
 class Checkoddoreven():
     def __init__(self,a):
+        try:
+            a = int(a)
+            if (a % 2) == 0:  # the condition
+                print(f'{a} is even')
+            else:
+                print(f'{a} is odd')
+        except ValueError:
+            print('Enter please a value number : ')
 
-        if (a % 2) == 0:      # the condition
-            print(f'{a} is even')
-        else:
-            print(f'{a} is odd')
 
-
-Checkoddoreven()            # my class
+Checkoddoreven('rgag')            # my class
 
 
 
