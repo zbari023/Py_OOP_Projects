@@ -9,7 +9,7 @@ class Checkoddoreven():
             print(f'{a} is odd')
 
 
-Checkoddoreven(22)            # my class
+Checkoddoreven()            # my class
 
 
 
